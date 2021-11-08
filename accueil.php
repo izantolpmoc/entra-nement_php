@@ -14,7 +14,7 @@ $content .= "<img src='https://svg-clipart.com/clipart/logo/pITljIQ-football-log
 $content .= "<div class='card-body'>";
 $content .= "<h5 class='card-title'>$joueurs[nom] $joueurs[prenom]</h5>";
 $content .= "<p>$joueurs[presentation]</p>";
-$content .= "<a href'#' class='btn btn-primary'>En savoir plus</a>";
+// $content .= "<a href'#' class='btn btn-primary'>En savoir plus</a>";
 $content .= "</div>";
 $content .= "</div>";
 

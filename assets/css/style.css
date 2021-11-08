@@ -26,6 +26,7 @@ h1{
 
 #accueil_h1{
     margin-top: 2em;
+    
 }
 
 nav{
@@ -83,6 +84,10 @@ nav a{
     font-weight: bold;
 }
 
+#floatingTextarea2{
+    min-height: 85px;
+}
+
 .aside{
     display: flex;
     flex-direction: row !important;
@@ -92,4 +97,9 @@ nav a{
 
 .form-floating{
     margin: 25px auto;
+}
+
+.fiche_joueur{
+    width: 80%;
+    margin: 4em auto;
 }
