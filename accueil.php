@@ -29,7 +29,7 @@ $content.= "</div>";
 
 ?>
 <img id="accueil_img" src="https://images.pexels.com/photos/701773/pexels-photo-701773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="foot">
-<h1>Bienvenue</h1>
+<h1 id="accueil_h1">Bienvenue</h1>
 
 <?= $content ?>
 <?php require_once "inc/footer.inc.php" ?>

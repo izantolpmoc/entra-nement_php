@@ -61,30 +61,30 @@ if( $_POST ){
 
 <div class="input">
     <label for="">Nom</label>
-    <input type="text" name="nom">
+    <input type="text" class="input-group-text" name="nom">
 </div>
 
 <div class="input">
     <label for="">Prénom</label>
-    <input type="text" name="prenom">
+    <input type="text" class="input-group-text" name="prenom">
 </div>
 
 <div class="input">
     <label for="">Âge</label>
-    <input type="text" name="age">
+    <input type="text" class="input-group-text" name="age">
 </div>
 
-<div class="input">
-    <label for="">Poste</label>
-    <select name="poste">
+<div class="input aside">
+    <label class="input-group-text" for="inputGroupSelect01">Poste</label>
+    <select class="form-select" id="inputGroupSelect01" name="poste">
         <option value="attaquant">Attaquant</option>
         <option value="defenseur">Defenseur</option>
     </select>
 </div>
 
-<div class="input">
-    <label for="">Présentation</label>
-    <textarea name="presentation" cols="30" rows="10"></textarea>
+<div class="input form-floating">
+    <textarea class="form-control" id="floatingTextarea2" name="presentation" cols="30" rows="10"></textarea>
+    <label for="floatingTextarea2">Présentation</label>
 </div>
 
 <input type="submit" class="btn btn-secondary" value="Ajouter">

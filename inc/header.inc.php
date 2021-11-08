@@ -24,7 +24,7 @@
         </figure>
         <nav>
             <a class="btn btn-dark" href="<?php echo URL?>ajout.php">Ajout</a>
-            <a class="btn btn-dark" href="<?php echo URL ?>accueil.php">Voir tous les joueurs</a>
+            <a class="btn btn-dark" href="<?php echo URL ?>all_players.php">Voir tous les joueurs</a>
         </nav>
     </div>
 
